@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: url("images/icon.png") disc inside;
+  background-color: rgb(235, 223, 207);
+}
+
+ul li {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+ol {
+  list-style: url("images/icon.png") decimal inside;
+  background-color: rgb(233, 211, 218);
+}
+
+ol li {
+  border: 1px solid black;
+  padding: 20px;
+}
