@@ -1,0 +1,27 @@
+div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid green;
+
+  }
+  
+  .com-border-box {
+    background-color: aquamarine;
+    box-sizing: border-box;
+  }
+
+  .sem-border-box {
+    background-color: brown;
+  }
+
+  /* largura + padding esquerda + padding direita + border esquerda + border direita = largura total do elemento 
+
+  100 + 10 + 10 + 10 + 10 = 140 (visto ao inspecionar o elemento no navegador e notar que os valores mudaram ao inspecionar com o mouse sobre o elemento)
+
+   ou então:   
+  altura + padding cima + padding baixo + border cima + border baixo = altura total do elemento
+
+  100 + 10 + 10 + 10 + 10 = 140
+  
+  */
