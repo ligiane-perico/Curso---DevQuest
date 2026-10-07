@@ -1,0 +1,9 @@
+.produto {
+    background-color:chartreuse
+    
+}
+
+.produto span {
+    font-size: 24px;
+    color: red;
+}
