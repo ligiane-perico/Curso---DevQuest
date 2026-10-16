@@ -1,0 +1,35 @@
+/* seletor:pseudo-classe{
+    propriedade: valor;
+} */
+
+p:first-child{
+    color: aquamarine;
+}
+
+p:last-child{
+    color: blueviolet;
+}
+
+p:not(.padrao){
+    color: rgb(197, 53, 137);
+}
+
+/* li:nth-child(n+2):nth-child(-2+5){
+    color:red;
+} */
+
+li:nth-last-child(1){
+    color:chocolate;
+}
+
+p:only-child{
+    color:seagreen;
+}
+
+/* Esta regra só pinta de amarelo o que NÃO for padrão, NÃO for o primeiro e NÃO for único. */
+
+/* p:not(.padrao):not(:first-child):not(:only-child) {
+    color: yellow;
+} */
+
+/* O objetivo da aula era também, mostrar como um seletor pode anular o outro. */
