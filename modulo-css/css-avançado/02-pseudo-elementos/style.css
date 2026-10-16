@@ -1,0 +1,33 @@
+/* seletor :: pseudo-elemento{
+    propriedades: valor;
+} */
+
+.first-letter::first-letter{
+    color: coral;
+
+}
+
+.first-line::first-line{
+    color:pink;
+}
+
+.first-line::first-letter{
+    color:blue;
+}
+
+li::marker{
+    color: red;
+    font-size: 33px;
+}
+
+.before::before{
+    content: "";
+    background: url(ua.png) center center;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.after::after{
+    content: url(ua.png);
+}
