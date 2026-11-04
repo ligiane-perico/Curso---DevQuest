@@ -1,0 +1,41 @@
+body {
+    font-family: 'Oxanium', cursive;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.nome-personagem {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    border-bottom: 2px solid #47F4FF;
+}
+
+.descrição-personagem {
+    font-weight: 400;
+    text-align:center;
+    padding: 20px 30px;
+    
+}
+
+.informacoes-personagem {
+    width: 483px;
+    height: 128px;
+}
+
+.personagem-selecionado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.personagem-grande {
+    width: 429px;
+}
+
+
